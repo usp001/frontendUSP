@@ -1,0 +1,7 @@
+.containerCalendar{
+    padding: 10px;
+}
+.chartContainer{
+    display: flex;
+    flex-direction: row;
+}

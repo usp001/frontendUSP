@@ -1,0 +1,9 @@
+.addBtnContainer {
+  padding: 5px;
+}
+.containerAnnouncement {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}

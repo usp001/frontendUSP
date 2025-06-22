@@ -1,0 +1,53 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .uspLogo {
+    height: 100%;
+  }
+  
+  ul,
+  li {
+    all: unset;
+  }
+  
+  li {
+    display: block;
+    padding: 10px 10px 10px 0;
+    width: 100%; /* Set the width of li */
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start;
+  }
+  
+  .sidebarContents nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4caf50;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    width: 85%;
+  }
+  
+  /* Active state for the link */
+  .sidebarContents nav ul li a.active {
+    color: white;
+    background-color: #2e7413;
+    border-radius: 5px;
+    padding-left: 20px;
+  }
+  
+  .logOut-container {
+    display: flex;
+    align-items: baseline;
+  }
+  
