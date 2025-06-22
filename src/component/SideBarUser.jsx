@@ -1,5 +1,5 @@
 import uspLogo from "../assets/USPlogo.jpg";
-import "./SideBarUser.css";
+import "./sidebaruser.css";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
